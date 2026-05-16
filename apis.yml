@@ -9,9 +9,21 @@ tags:
   - Food & Beverage
 description: 'One of the world''s largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.subway.com/
+  - type: About
+    url: https://www.subway.com/en-us/aboutus/ourstory
+  - type: Newsroom
+    url: https://www.subway.com/en-us/aboutus/newsroom
+  - type: Careers
+    url: https://www.subway.com/en-us/contactus/careers
+  - type: Franchise
+    url: https://www.mysubwaycareer.com/
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+    X: '@apievangelist'

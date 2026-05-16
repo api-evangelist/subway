@@ -13,5 +13,11 @@ One of the world's largest fast-food restaurant chains specializing in submarine
 ## Timestamps
 
 - **Created:** 2026-05-05
-- **Modified:** 2026-05-05
+- **Modified:** 2026-05-16
+
+## Status
+
+Subway does not publish a public API or self-service developer portal. Online ordering, store locator, and loyalty integrations are managed through internal systems and direct franchise/partner agreements rather than via a documented public API.
+
+This repository is being tracked for future updates if and when public developer documentation becomes available.
 
