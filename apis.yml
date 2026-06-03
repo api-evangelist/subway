@@ -7,14 +7,14 @@ tags:
   - Fast Food
   - Restaurants
   - Food & Beverage
-description: 'One of the world''s largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model.'
+  - Quick Service Restaurant
+  - Loyalty
+description: 'One of the world''s largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model. Subway has no public developer API or self-service developer portal; ordering, store locator, nutrition, and MyWay/MVP loyalty integrations are handled through internal systems and direct franchise/partner agreements.'
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-06-03'
 specificationVersion: '0.19'
 apis: []
 common:
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/subway
   - type: Website
     url: https://www.subway.com/
   - type: About
@@ -23,9 +23,51 @@ common:
     url: https://www.subway.com/en-us/aboutus/newsroom
   - type: Careers
     url: https://www.subway.com/en-us/contactus/careers
-  - type: Franchise
+  - type: Partners
+    title: Franchise Opportunities
     url: https://www.mysubwaycareer.com/
+  - type: SignUp
+    title: Subway MyWay / MVP Rewards
+    url: https://www.subway.com/en-us/MyWayRewards/HowItWorks
+  - type: FAQ
+    title: Subway App FAQs
+    url: https://media.subway.com/sites/en-us/app/faqs/appfaqs.html
+  - type: TermsOfService
+    title: MyWay Rewards Terms of Use
+    url: https://www.subway.com/en-us/legal/mywayrewardstermsofuse
+  - type: PrivacyPolicy
+    url: https://www.subway.com/en-us/privacy/privacy-policy
+  - type: X
+    url: https://x.com/SUBWAY
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/subway
+  - type: Features
+    data:
+      - name: Online & Mobile Ordering
+        description: Customers place pickup and delivery orders through subway.com and the Subway mobile app; no public ordering API is exposed to third-party developers.
+      - name: Store Locator
+        description: Web and app store locator surfaces location, hours, and amenities for 36,000+ franchised restaurants worldwide. Location data is not available via a documented public API.
+      - name: Nutrition & Menu Information
+        description: Nutritional and menu information is published on subway.com for consumers; there is no public menu/nutrition data API.
+      - name: MyWay / MVP Rewards Loyalty
+        description: Consumer loyalty program (rebranded MVP Rewards) earning tokens and discount coupon rewards, managed through Subway-owned systems.
+      - name: Gift & Subway Cards
+        description: Stored-value Subway Card and digital gift card program governed by Subway card terms of use.
+  - type: UseCases
+    data:
+      - name: Consumer Ordering
+        description: End users order food for pickup or delivery via Subway's first-party web and mobile experiences.
+      - name: Loyalty Engagement
+        description: Members accrue and redeem rewards through the MyWay/MVP Rewards program.
+      - name: Franchise Operations
+        description: Franchisees access operational and point-of-sale systems through internal Subway platforms, not public APIs.
+  - type: Integrations
+    data:
+      - name: Third-Party Delivery
+        description: Delivery is offered through third-party marketplaces (e.g., DoorDash, Uber Eats, Grubhub) via direct commercial partnerships rather than a Subway public API.
+      - name: Payment Processing
+        description: In-app and online payments are processed through integrated payment providers within Subway's first-party systems.
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
     X: '@apievangelist'
