@@ -26,7 +26,7 @@ common:
   - type: Partners
     title: Franchise Opportunities
     url: https://www.mysubwaycareer.com/
-  - type: SignUp
+  - type: Signup
     title: Subway MyWay / MVP Rewards
     url: https://www.subway.com/en-us/MyWayRewards/HowItWorks
   - type: FAQ
